@@ -1,0 +1,35 @@
+{
+  "name": "vscode-html-snippets",
+  "displayName": "HTML Snippets",
+  "description": "Snippets for HTML",
+  "version": "0.0.1",
+  "publisher": "andrewsallai",
+  "icon": "images/siphtml.png",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andteki/vscode-html-snippets"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "snippets/snippets.json"
+      }
+    ]
+  },
+  "scripts": {
+    "prebuild": "mkdirp dist",
+    "build": "vsce package --out dist"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.7.1",
+    "mkdirp": "^3.0.1"
+  }
+}

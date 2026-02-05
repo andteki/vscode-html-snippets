@@ -1,0 +1,32 @@
+{
+    "insert form sip": {
+        "prefix": "formjs",
+        "body": [
+            "<form id=\"$1\">",
+            "\t$2",
+            "</form>"
+        ],
+        "description": "Form beszúrása JavaScipt környezetbe"        
+    },
+    "insert input sip": {
+        "prefix": "inputjs",
+        "body": [
+            "<div class=\"mb-3\">",
+            "   <label for=\"$1\" class=\"form-label\">$2</label>",
+            "   <input type=\"text\"",
+            "   class=\"form-control\" id=\"$1\">",
+            "</div>",
+            "$3"
+        ],
+        "description": "Input elem beszúrása JavaScript környezetben"
+    },
+    "insert button sip": {
+        "prefix": "buttonjs",
+        "body": [
+            "<button type=\"submit\" id=\"$1\"",
+            "class=\"btn btn-primary\">$2</button>",
+            "$3"
+        ],
+        "description": "Button elem beszúrása"
+    }
+}
