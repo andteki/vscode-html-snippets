@@ -7,7 +7,7 @@ Download the latest vscode-html-snippets from:
 * [https://github.com/andteki/vscode-html-snippets](https://github.com/andteki/vscode-html-snippets)
 
 ```cmd
-code --install-extension vscode-java-html-snippets-x.y.z.vsix
+code --install-extension vscode-html-snippets-x.y.z.vsix
 ```
 
 Correct the characters x.y.z to the appropriate version numbers.
