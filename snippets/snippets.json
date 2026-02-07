@@ -23,9 +23,9 @@
     "insert button sip": {
         "prefix": "buttonjs",
         "body": [
-            "<button type=\"submit\" id=\"$1\"",
-            "class=\"btn btn-primary\">$2</button>",
-            "$3"
+            "<button type=\"submit\"",
+            "class=\"btn btn-primary mb-3\">$1</button>",
+            "$2"
         ],
         "description": "Button elem beszúrása"
     }
